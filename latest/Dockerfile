@@ -1,4 +1,4 @@
-FROM webdevops/base-app:alpine
+FROM webdevops/base-app:latest
 
 ENV MAILBOX_USERNAME="dev" \
     MAILBOX_PASSWORD="dev" \
