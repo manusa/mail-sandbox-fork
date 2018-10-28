@@ -1,4 +1,4 @@
-FROM webdevops/php-nginx:latest
+FROM webdevops/base-app:latest
 
 ENV MAILBOX_USERNAME="dev" \
     MAILBOX_PASSWORD="dev" \
